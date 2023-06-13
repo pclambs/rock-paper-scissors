@@ -1,10 +1,16 @@
-// variables
-    // num wins
-    //num losses
-    //num ties
-// players choose R, P, S
-    // human choice - get from user input
-    //computer randomly chooses
+var wins = 0
+var losses = 0
+var ties = 0
+
+var choices = ["R", "P", "S"]
+
+// human choice - get from user input
+var humanChoice = prompt("Choose R, P, or S")
+console.log(humanChoice)
+
+//computer randomly chooses
+var randomNum = Math.floor(Math.random() * 3)
+console.log(choices[randomNUM])
 
 // compare choices
     // if humanChoice is S and computerChoice is P OR
